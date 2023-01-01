@@ -32,6 +32,7 @@ main{
     overflow: scroll;
     
 }
+/*  */
 nav ul{
     width: 100%;
     padding: 0;
@@ -140,6 +141,7 @@ section{
     }
     header {
         position: fixed;
+        width: 100vw;
     }
     main{
         overflow: auto;
