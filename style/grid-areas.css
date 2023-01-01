@@ -1,0 +1,48 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-template-areas: 
+        "header header header header"
+        "main main . sidebar"
+        "footer footer footer footer";
+        /* afhnei keno row - col */
+        gap: 10px 30px;
+        /* center horizontally */
+        /* justify-items: center; */
+        /* vertically */
+        /* align-items: center; */
+        /* both */
+        /* place-items: center; */
+
+}
+/* dhlwnw areas */
+/* .grid-item-1{
+    grid-area: header;
+}
+.grid-item-2{
+    grid-area: main;
+}
+.grid-item-3{
+    grid-area: sidebar;
+}
+.grid-item-4{
+    grid-area: footer;
+} */
+div[class^="grid-"]{
+    border: 1px solid black;
+}
+/* dhlwnw megethos me vash ta lines */
+.grid-item-1{
+    background-color: green;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* OR */
+    /* grid-column: 1 / 3; */
+    /* OR */
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    text-align: center;
+    /* align-self: center; */
+    
+}
